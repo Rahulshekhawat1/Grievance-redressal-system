@@ -1,0 +1,16 @@
+{
+  "watch": [
+    "index.js",
+    "routes",
+    "models"
+  ],
+  "ext": "js,mjs,json",
+  "ignore": [
+    "node_modules/**",
+    "../frontend/**",
+    "frontend/**",
+    "**/*.log",
+    "**/*.test.*"
+  ],
+  "delay": "1000"
+}
