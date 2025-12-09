@@ -11,7 +11,7 @@ export default function Login({ onLoggedIn, initialEmail }) {
   const [error, setError] = useState('')
   const [fieldErrors, setFieldErrors] = useState({})
 
-  // const API = process.env.REACT_APP_API_URL;
+  const API = process.env.REACT_APP_API_URL;
   async function submit(e) {
     e.preventDefault()
     setError('')
