@@ -15,16 +15,6 @@
 
 /* Custom styles (kept after Tailwind so they can override) */
 body{ font-family: Arial, sans-serif; padding:20px; background:var(--bg); color:#111827 }
-:root{
-	--bg: #f7fafc;
-	--card: #ffffff;
-	--muted: #6b7280;
-	--accent: #2563eb;
-	--accent-600: #1d4ed8;
-	--success: #10b981;
-	--danger: #ef4444;
-}
-
 .container{ max-width:900px; margin:24px auto; background:var(--card); padding:28px; border-radius:12px; box-shadow:0 8px 24px rgba(15,23,42,0.06) }
 .header{ display:flex; flex-direction:column; gap:6px; margin-bottom:12px }
 .title{ margin:0; font-size:1.6rem; color:#0f172a }
